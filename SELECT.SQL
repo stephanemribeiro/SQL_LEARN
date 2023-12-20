@@ -18,7 +18,7 @@ serie TEXT);
 
 CREATE TABLE notas(
 id_nota serial PRIMARY KEY, 
-id_aluno TEXT,
+id_aluno INT,
 nota DECIMAL);
 
 -- INSERINDO DADOS FICTICIOS EM UMA TABELA:
